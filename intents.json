@@ -1,0 +1,151 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+     "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+     "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure"],
+     "context": [""]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+     "context": [""]
+    },
+    {"tag": "options",
+     "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+     "responses": ["I can guide you through Adverse drug reaction list, Blood pressure tracking, Hospitals and Pharmacies", "Offering support for Adverse drug reaction, Blood pressure, Hospitals and Pharmacies"],
+     "context": [""]
+    },
+    {"tag": "departments",
+     "patterns": ["How many departments are there?", "Number of courses available", "Different Courses", "List of courses", "Courses offered" ],
+     "responses": ["GIT Offers Courses \n 1) Computer Science \n 2) Civil Engg \n 3) Electronics & Communication \n 4) Electrical & Electronics \n 5)Mechanical \n 6)MCA \n 7)MBA "],
+     "context": [""]
+    },
+    {"tag": "CSE",
+     "patterns": ["Total number of teching faculty in CS department", "No of faculties in cs", "faculty in cs", "no of faculty available in cs", "faculty strength" ],
+     "responses": ["Number of Faculties in CS Dept are \n 11 are Teaching \n 7 are non teaching "],
+     "context": [""]
+    },
+    {"tag": "MCA",
+        "patterns": ["Total number of teching faculty in MCA department", "No of faculties in MCA", "faculty in MCA", "no of faculty available in MCA", "faculty strength" ],
+        "responses": ["Number of Faculties in MCA Dept are \n 14 are Teaching \n 4  are non teaching "],
+        "context": [""]
+    },
+    
+    {"tag": "EC",
+     "patterns": ["Total number of teching faculty in EC department", "No of faculties in ec", "faculty in ec", "no of faculty available in ec", "faculty strength" ],
+     "responses": ["Number of Faculties in EC Dept are \n 19 are Teaching \n 8 are non teaching "],
+     "context": [""]
+    },
+    {"tag": "MECH",
+     "patterns": ["Total number of teching faculty in Mechanical department", "No of faculties in mechanical", "faculty in mechanical", "no of faculty available in mechanical", "faculty strength" ],
+     "responses": ["Number of Faculties in Mechanical Dept are \n 19 are Teaching \n 8 are non teaching "],
+     "context": [""]
+    },
+    {"tag": "CIVIL",
+     "patterns": ["Total number of teching faculty in Civil department", "No of faculties in civil", "faculty in civil", "no of faculty available in civil", "faculty strength" ],
+     "responses": ["Number of Faculties in Civil Dept are \n 23 are Teaching \n 8 are non teaching "],
+     "context": [""]
+    },
+    {"tag": "EEE",
+     "patterns": ["Total number of teching faculty in Electrical and Electronics department","Total number of teching faculty in EEE department", "No of faculties in EEE", "faculty in EEE", "no of faculty available in EEE", "faculty strength" ],
+     "responses": ["Number of Faculties in EEE Dept are \n 10 are Teaching \n 5 are non teaching "],
+     "context": [""]
+    },
+    {"tag": "Sports",
+        "patterns": ["GIT have cricket academy?", "sports details", "Sports Quota" ],
+        "responses": ["GIT has its own sports ground and we support all kinds og games in state level and national levels"],
+        "context": [""]
+     },
+    {"tag": "Library",
+        "patterns": ["How many books are available in library?", "Number of books", "books",  "different books" ],
+        "responses": ["There are more than 5000 books available in library for all departments"],
+        "context": [""]
+       },
+    {"tag": "Hostel",
+     "patterns": ["Total number of hostel seats?", "Hostel strength", "per person in hostel room ", "Hostel Committie members", "Total hostel seats available for girls","Total hostel seats available for boys" ],
+     "responses": ["Hostel is available for Girls and Boys/ 1) Girls and Boys Hostel Committie members -05 and 04 \n Total no of seats for Girls Hostel is 477 (3 person/Room) \n and for boys 140 seats (2 person/Room) "],
+     "context": ["search_hostel_facility_by_student"]
+    },
+    {"tag": "Other Curricular activites",
+     "patterns": ["NCC and NSS","NSS and NCC","is college have NCC nad NSS facility","NSS and NCC is there","NCC","NSS"],
+     "responses": ["Yes! GIT do provide NSS and NCC for students \n There are 7 staff for NSS  "],
+     "context": [""]
+    },
+    {"tag": "Red Cross",
+     "patterns": ["Red Cross", "red cross", "red cross facility", "Red corss community", "red cross information" ],
+     "responses": ["GIT is a part of Red Cross organization"],
+     "context": ["search_pharmacy_by_name"]
+    },
+    {"tag": "About College",
+     "patterns": ["College Information","details of college","college details","year of estabilation","founder of college"],
+     "responses": ["Gogte  Institute of Technology was founded in 1979 to create Engineers who can define, design and deliver technology to improve peoples lives. In all our pursuits we lay profound emphasis on values to fulfill the universal goal of creating a happy and peaceful society.\n Today, GIT lies in the league of premier institutes of Karnataka and has a tryst with global standards in its commitment to bring up ‘Engineers of Tomorrow’.\nEngineering is a hands-on experience and our students are trained towards providing solutions to real problems. Hence, while we provide engineering education that is high-tech and research-driven, it is nonetheless environment-friendly and human. for more details visit http://www.git.edu.in/"],
+     "context": [""]
+    },
+    {"tag": "Founder",
+     "patterns": ["who is founder of git?", "founder", "founder name?", "name of founder", "founder details","year of establishment" ],
+     "responses": ["Gogte  Institute of Technology was established in the year 1979."],
+     "context": [""]
+    },
+    {"tag": "Accreditation and Recognition",
+     "patterns": ["Accreditation and Recognition","accreditation and recognition","Accreditation","Recognition","accreditation","recognition"],
+     "responses": ["GIT is Accregated and Recognised by AICTE,VTU,ICI,IEEE,MSME,NPTEL,KSCST etc"],
+     "context": [""]
+    },
+    {"tag": "Bus Facility",
+     "patterns": ["Bus Facility","bus facility","how about bus facility","Transportation","transportations service","buses facility","no of busses","facility of busses"],
+     "responses": ["GIT provides college Buses, it has toatl 8 Buses \n Seating capacity 24 for one bus and \n 42 for remaining buses. More than 800+ students are using college bus facility"],
+     "context": [""]
+    },
+    {"tag": "Department",
+     "patterns": ["How Many Departments are there?", "Department Names", "Name of Departments", "I want to know number of departments", "different departments in college" ],
+     "responses": ["The departments are namely 1) MCA 2) CSE 3) Mechanical 4) Civil 5) E&E 6)E&C \n And Post Graduate program in Structural Engineering"],
+     "context": [""]
+    },
+    
+    {"tag": "Principal",
+     "patterns": ["Name of the principal?", "principal name",  "pricipal details","details of the principal","prinicpla information","details of principal" ],
+     "responses": ["Prof.J.K.Kittur"],
+     "context": [""]
+    },
+    {"tag": "Other Information",
+     "patterns": ["Students club?", "other club information", "student club",  "club of student","details of the principal","prinicpla information","details of principal" ],
+     "responses": ["GIT has other student clubs link \n 1)Women Empowerment Cell \n 2)Sports Club \n 3)Cultural Club \n 4)Social Club \n 5)Robo Club"],
+     "context": [""]
+    },
+    {"tag": "Placement",
+     "patterns": ["GIT has placements?", "placement information", "placement details",  "company placements","jobs","placement facility for students","placement" ],
+     "responses": ["GIT has MOU with many companies like TCS,Infosys,TCS,Accenture,HP,KPIT,L&T,Persistent,Mindtree,Quest,SAP Labs,SLK,Syntel,Wipro,Zerodha,Tech Mahindra more than 48+ companies"],
+     "context": [""]
+    },
+    
+    {"tag": "Curricular",
+     "patterns": ["GIT has any IEEE conference?", "other curricular activities" ],
+     "responses": ["GIT has organized many National level IEEE Conferences, even we organize IT Tech Fests for students"],
+     "context": [""]
+    },
+    {"tag": "Belgaum",
+     "patterns": ["How close to Belgaum City","How far from city","distance bewteen Bus stand and railways station" ],
+     "responses": ["GIT is located in center of the city, it is nearer to bus stand and railway station and has well transport facilities."],
+     "context": [""]
+    },
+    {"tag": "Fees",
+        "patterns": ["fees of mca","fees of cse","fees of civil","fees of mechanical","fees of mtech","fees of e&c"],
+        "responses": ["For fees details contact to departments or visit git website www.git.edu"],
+        "context": [""]
+    },
+    {"tag": "",
+        "patterns": [""],
+        "responses": ["For more details visit git website www.git.edu"],
+        "context": [""]
+    }
+]
+}
